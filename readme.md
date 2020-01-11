@@ -14,7 +14,7 @@ Google blocks their suggestion API from cross origin calls, so DYM allows you to
 - Query must be formatted for URL.
 - Request must be sent to http://dym.show/QUERY
 
-####Javascript Example　
+#### Javascript Example　
 
 ```javascript
     const request = new XMLHttpRequest();
