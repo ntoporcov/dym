@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 
 $_SERVER['REQUEST_URI_PATH'] = preg_replace('/\?.*/', '', $_SERVER['REQUEST_URI']);
 $query = explode('/', trim($_SERVER['REQUEST_URI_PATH'], '/'))[0];
